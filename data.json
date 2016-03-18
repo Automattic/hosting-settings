@@ -1,0 +1,73 @@
+[
+	{
+		"host": "GoDaddy",
+		"url": "http://godaddy.com",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "0",
+						"target": "smtp.secureserver.net."
+					},
+					{
+						"type": "mx",
+						"priority": "10",
+						"target": "mailstore1.secureserver.net."
+					},
+					{
+						"type": "cname",
+						"name": "email",
+						"target": "email.secureserver.net."
+					},
+					{
+						"type": "cname",
+						"name": "mail",
+						"target": "pop.secureserver.net."
+					}
+				],
+				"doc": "https://www.godaddy.com/help/using-email-with-domains-hosted-elsewhere-2570"
+			}
+		}
+	},
+	{
+		"host": "Google Apps",
+		"url": "apps.google.com",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "1",
+						"content": "ASPMX.L.GOOGLE.COM."
+					},
+					{
+						"type": "mx",
+						"priority": "5",
+						"content": "ALT1.ASPMX.L.GOOGLE.COM."
+					},
+					{
+						"type": "mx",
+						"priority": "5",
+						"content": "ALT2.ASPMX.L.GOOGLE.COM."
+					},
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "ALT3.ASPMX.L.GOOGLE.COM."
+					},
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "ALT4.ASPMX.L.GOOGLE.COM."
+					},
+					{
+						"type": "txt",
+						"content": "v=spf1 include:aspmx.googlemail.com ~all"
+					}
+				],
+				"doc": "https://support.google.com/a/answer/174125?hl=en"
+			}
+		}
+	},
+]
