@@ -378,5 +378,25 @@
 				]
 			}
 		}
+	},
+	{
+		"host": "Crazydomains.com.au",
+		"url": "http://Crazydomains.com.au",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "mail.[domainname]."
+					},
+					{
+						"type": "A",
+						"name": "mail",
+						"content": "203.170.82.73"
+					}
+				]
+			}
+		}
 	}
 ]
