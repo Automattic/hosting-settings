@@ -197,5 +197,20 @@
 				]
 			}
 		}
+	},
+	{
+		"host": "Dot5Hosting",
+		"url": "http:/dot5hosting.com",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "30",
+						"content": "mx-mg.dot5hosting.com."
+					}
+				]
+			}
+		}
 	}
 ]
