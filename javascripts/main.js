@@ -6,6 +6,9 @@ function getServiceName( name ) {
 	return serviceNames[ name ];
 }
 
+function parsePlaceholders( content ) {
+	return content.replace( /\[domainname\]/ig, '<span class="placeholder">your domain</span>' );
+}
 
 function hostTemplate( host ) {
 	var t = "<div class='host'>";
@@ -23,7 +26,7 @@ function hostTemplate( host ) {
 			t += "<td class='type'>" + record.type + "</td>";
 			t += "<td class='name'>" + ( record.name || "" ) + "</td>";
 			t += "<td class='priority'>" + ( record.priority || "" ) + "</td>";
-			t += "<td class='content'>" + ( record.content || "" ) + "</td>";
+			t += "<td class='content'>" + parsePlaceholders( record.content || "" ) + "</td>";
 			t += "</tr>";
 		} );
 		t += "</table>";

@@ -923,3 +923,12 @@ footer a:hover {
     vertical-align: middle;
     width: 130px;
 }
+
+td.content span.placeholder {
+  display:inline-block;
+  background-color: #D3D3D3;
+  padding:3px;
+  font-size:10px;
+  border-radius: 3px;
+  vertical-align: bottom;
+}
