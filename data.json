@@ -8,22 +8,22 @@
 					{
 						"type": "mx",
 						"priority": "0",
-						"target": "smtp.secureserver.net."
+						"content": "smtp.secureserver.net."
 					},
 					{
 						"type": "mx",
 						"priority": "10",
-						"target": "mailstore1.secureserver.net."
+						"content": "mailstore1.secureserver.net."
 					},
 					{
 						"type": "cname",
 						"name": "email",
-						"target": "email.secureserver.net."
+						"content": "email.secureserver.net."
 					},
 					{
 						"type": "cname",
 						"name": "mail",
-						"target": "pop.secureserver.net."
+						"content": "pop.secureserver.net."
 					}
 				],
 				"doc": "https://www.godaddy.com/help/using-email-with-domains-hosted-elsewhere-2570"
