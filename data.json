@@ -314,4 +314,24 @@
 			}
 		}
 	},
+	{
+		"host": "Teksavvy",
+		"url": "http://Teksavvy.com",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "ironport.teksavvy.com."
+					},
+					{
+						"type": "A",
+						"name": "mail",
+						"content": "206.248.146.145"
+					}
+				]
+			}
+		}
+	}
 ]
