@@ -78,6 +78,31 @@
 		}
 	},
 	{
+		"host": "Register.com",
+		"url": "http://1and1.co.uk",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "mx05.register.com."
+					},
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "mx06.register.com."
+					},
+					{
+						"type": "cname",
+						"name": "mail",
+						"content": "webmail03.register.com."
+					}
+				]
+			}
+		}
+	},
+	{
 		"host": "GoDaddy",
 		"url": "http://godaddy.com",
 		"services": {
