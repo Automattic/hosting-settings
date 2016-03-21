@@ -1,0 +1,6 @@
+{
+  "name": "Hosting-Settings",
+  "tagline": "Database of MX records and other DNS settings for common providers",
+  "body": "# Hosting settings DB\r\n\r\nThis database contains MX and other settings for known hosting providers.\r\nWhen you buy a domain and hosting in 2 different places, often one or the other sends you some settings \"to make it work\".\r\nThis is often very tiresome.\r\n\r\nIn Automattic, we want to make web a better place and we also think that these kind of settings exchange should be no concern of the user.\r\n\r\nThis database is designed to be embedded in projects like DNS editors to provide an easy interface to manage your settings.\r\n\r\n## Data format\r\n\r\n## I want to use it in my project!\r\n\r\nFeel free to add it as a dependency, it is designed for precisely that purpose.\r\n\r\n## I am a hosting provider and my settings changed\r\n\r\nPlease submit a pull request - they are very welcome!\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
