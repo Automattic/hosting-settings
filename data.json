@@ -249,7 +249,9 @@
 						"name": "mail",
 						"content": "mail.hover.com.cust.hostedemail.com."
 					}
-				]
+				],
+				"doc": "http://help.hover.com/entries/21143676-wordpress-hover"
+
 			}
 		}
 	}
