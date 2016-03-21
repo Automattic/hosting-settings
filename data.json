@@ -232,5 +232,25 @@
 				]
 			}
 		}
+	},
+	{
+		"host": "Hover",
+		"url": "http://Hover.com",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "0",
+						"content": "mx.hover.com.cust.hostedemail.com."
+					},
+					{
+						"type": "cname",
+						"name": "mail",
+						"content": "mail.hover.com.cust.hostedemail.com."
+					}
+				]
+			}
+		}
 	}
 ]
