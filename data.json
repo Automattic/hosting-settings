@@ -1,5 +1,21 @@
 [
 	{
+		"host": "WordPress.com",
+		"url": "http://wordpress.com",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "smtp-fwd.wordpress.com."
+					}
+				],
+				"doc": "https://en.support.wordpress.com/email-forwarding/"
+			}
+		}
+	},
+	{
 		"host": "GoDaddy",
 		"url": "http://godaddy.com",
 		"services": {
