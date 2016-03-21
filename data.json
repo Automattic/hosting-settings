@@ -288,7 +288,7 @@
 					{
 						"type": "srv",
 						"content": "_autodiscover._tcp 0 0 443 privateemail.com"
-					},
+					}
 				],
 				"doc": "https://www.namecheap.com/support/knowledgebase/article.aspx/1340/93/open-xchange-records-for-domains-with-third-party-dns"
 			}
