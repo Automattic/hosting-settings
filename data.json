@@ -254,5 +254,44 @@
 
 			}
 		}
+	},
+	{
+		"host": "Namecheap",
+		"url": "http://namecheap.com",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "mx1.privateemail.com."
+					},
+					{
+						"type": "mx",
+						"priority": "20",
+						"content": "mmx2.privateemail.com."
+					},
+					{
+						"type": "txt",
+						"content": "v=spf1 include:spf.privateemail.com ~all"
+					},
+					{
+						"type": "cname",
+						"name": "autodiscover",
+						"content": "privateemail.com."
+					},
+					{
+						"type": "cname",
+						"name": "autoconfig",
+						"content": "privateemail.com."
+					},
+					{
+						"type": "srv",
+						"content": "_autodiscover._tcp 0 0 443 privateemail.com"
+					},
+				],
+				"doc": "https://www.namecheap.com/support/knowledgebase/article.aspx/1340/93/open-xchange-records-for-domains-with-third-party-dns"
+			}
+		}
 	}
 ]
