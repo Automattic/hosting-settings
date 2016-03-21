@@ -901,3 +901,25 @@ footer a:hover {
 .host .service .record .content {
   text-align: left;
 }
+
+#footer {
+  margin-top: 48px;
+  padding-top:24px;
+  padding-bottom: 24px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  background: #2e4453;
+  border-top: solid 1px #275da1;
+  color: white;
+}
+
+
+.a8c-attribution {
+    background: url(https://developer.wordpress.com/wp-content/themes/a8c/wpcomdev3/img/automattic.svg) center center no-repeat;
+    display: inline-block;
+    margin: 0 5px 3px;
+    opacity: .8;
+    overflow: hidden;
+    text-indent: 100%;
+    vertical-align: middle;
+    width: 130px;
+}
