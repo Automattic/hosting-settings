@@ -32,7 +32,7 @@
 	},
 	{
 		"host": "Google Apps",
-		"url": "apps.google.com",
+		"url": "https://apps.google.com",
 		"services": {
 			"email": {
 				"dns": [
