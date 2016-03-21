@@ -58,6 +58,26 @@
 		}
 	},
 	{
+		"host": "1&1 ES",
+		"url": "http://1and1.es",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "mx00.1and1.es."
+					},
+					{
+						"type": "mx",
+						"priority": "20",
+						"content": "mx01.1and1.es."
+					}
+				]
+			}
+		}
+	},
+	{
 		"host": "GoDaddy",
 		"url": "http://godaddy.com",
 		"services": {
