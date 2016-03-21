@@ -212,5 +212,25 @@
 				]
 			}
 		}
+	},
+	{
+		"host": "123-reg",
+		"url": "http:/123-reg.co.uk",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "mx0.123-reg.co.uk."
+					},
+					{
+						"type": "mx",
+						"priority": "20",
+						"content": "mx1.123-reg.co.uk."
+					}
+				]
+			}
+		}
 	}
 ]
