@@ -16,6 +16,27 @@
 		}
 	},
 	{
+		"host": "1&1",
+		"url": "http://1and1.com",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "mx00.1and1.com."
+					},
+					{
+						"type": "mx",
+						"priority": "20",
+						"content": "mx01.1and1.com."
+					}
+				],
+				"doc": "http://help.1and1.com/domains-c36931/manage-domains-c79822/dns-c37586/use-1and1-e-mail-for-a-domain-hosted-with-another-company-a641052.html"
+			}
+		}
+	},
+	{
 		"host": "GoDaddy",
 		"url": "http://godaddy.com",
 		"services": {
