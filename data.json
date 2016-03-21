@@ -293,5 +293,25 @@
 				"doc": "https://www.namecheap.com/support/knowledgebase/article.aspx/1340/93/open-xchange-records-for-domains-with-third-party-dns"
 			}
 		}
-	}
+	},
+	{
+		"host": "Fluccs Australia",
+		"url": "http://fluccs.com.au",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "0",
+						"content": "mail.[domainname]."
+					},
+					{
+						"type": "A",
+						"name": "mail",
+						"content": "67.228.216.64"
+					}
+				]
+			}
+		}
+	},
 ]
