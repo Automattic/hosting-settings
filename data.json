@@ -37,6 +37,27 @@
 		}
 	},
 	{
+		"host": "1&1 UK",
+		"url": "http://1and1.co.uk",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "mx00.1and1.co.uk."
+					},
+					{
+						"type": "mx",
+						"priority": "20",
+						"content": "mx01.1and1.co.uk."
+					}
+				],
+				"doc": "http://faq.1and1.co.uk/domains/domain_admin/dns_settings/15.html"
+			}
+		}
+	},
+	{
 		"host": "GoDaddy",
 		"url": "http://godaddy.com",
 		"services": {
