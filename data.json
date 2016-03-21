@@ -358,5 +358,25 @@
 				]
 			}
 		}
+	},
+	{
+		"host": "Webs.com",
+		"url": "http://webs.com",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "0",
+						"content": "sitemail.everyone.net."
+					},
+					{
+						"type": "cname",
+						"name": "webmail",
+						"content": "[domainname].everyone.net."
+					}
+				]
+			}
+		}
 	}
 ]
