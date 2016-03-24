@@ -398,5 +398,45 @@
 				]
 			}
 		}
+	},
+	{
+		"host": "gandi.net",
+		"url": "https://www.gandi.net",
+		"services": {
+			"email": {
+				"dns": [
+					{
+						"type": "mx",
+						"priority": "10",
+						"content": "spool.mail.gandi.net."
+					},
+					{
+						"type": "mx",
+						"priority": "50",
+						"content": "fb.mail.gandi.net."
+					},
+					{
+						"type": "cname",
+						"name": "imap",
+						"content": "access.mail.gandi.net."
+					},
+					{
+						"type": "cname",
+						"name": "pop",
+						"content": "access.mail.gandi.net."
+					},
+					{
+						"type": "cname",
+						"name": "smtp",
+						"content": "relay.mail.gandi.net."
+					},
+					{
+						"type": "cname",
+						"name": "webmail",
+						"content": "webmail.gandi.net."
+					}
+				]
+			}
+		}
 	}
 ]
