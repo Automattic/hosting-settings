@@ -8,6 +8,23 @@ In Automattic, we want to make web a better place and we also think that these k
 
 This database is designed to be embedded in projects like DNS editors to provide an easy interface to manage your settings.
 
+## Online database
+
+This project introduces online MX database search engine. It lives under:
+
+#### http://automattic.github.io/hosting-settings/
+
+It is powered by GitHub pages.
+Whole code of the online version is in `gh-pages` branch of this project.
+To update the data in the online version, simply:
+
+- Update `master` branch
+- Chekout `gh-pages` branch
+- `git merge master`
+- `git push`
+
+et voila.
+
 ## Data format
 
 ## I want to use it in my project!
